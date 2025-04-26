@@ -1,0 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: 지킬 연습장장
+email: 이히히 안알려줄거지롱
+description: >- # this means to ignore newlines until "baseurl:"
+  왜 난 아직도 시험이 끝나지 않은 건가... 언제쯤 이 시험이 끝나고 난 집에 갈 수 있을까 나 에이쁠 받고싶은데 지금 가능한 
+  과목이 중문지 빼고 있을까... 아니야 그래도 중문지 객프 옾소는 에이쁠 받아야돼.... 하 컴네 진짜 ㅈ같은거 나 재수강 하기 싫은데
+
+baseurl: "i_hate_exam" # the subpath of your site, e.g. /blog
+url: "https://seooo-h.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username: jekyll
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
